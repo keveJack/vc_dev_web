@@ -1,0 +1,87 @@
+body
+{
+    background-color: bisque;
+    padding: 50px;
+}
+nav
+{
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+}
+ul,li{
+    list-style-type: none;
+    display: inline;
+    }
+    li
+    {
+        background-color: blueviolet;
+        margin-top: 2%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        
+    }
+main
+{
+    background-color: whitesmoke;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    padding: 15px;
+}
+img
+{
+    max-width: 250px;
+    margin: 20px;
+}
+#presentation
+{
+    display: flex;
+    flex-direction: row;
+}
+a :visited,:link
+{
+  
+    padding: 10px;
+    color: white;
+}
+a:hover
+{
+    color:red;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+footer
+{
+    text-align: center;
+    padding-top: 30px;
+}
+@media screen and (max-width:650px) {
+    body{
+        background-color: red;
+    padding: 0px;
+    }
+    #presentation
+    {
+        flex-direction: column;
+    }
+    ul
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    li
+    {
+        width: 100%;
+        padding-right: 0px;
+        margin: 0px;
+    }
+    a{
+        width: 100%;
+    }
+    img
+    {
+        /* width: 100%; */
+        max-width: 100%;
+        margin: 0px;
+    }
+}
