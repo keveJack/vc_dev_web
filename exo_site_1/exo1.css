@@ -1,5 +1,5 @@
 main{
-    background-color: brown;
+    background-color: white;
     border-radius: 3%;
     margin: 3%;
     padding: 3%;
@@ -8,11 +8,43 @@ img {
     width: 10%; 
  
 }
-.cadre{
-    background-color: burlywood;
-    width: 100%;
-}
+
 h2{
         display: flex;
       justify-content: space-around;
+     
+
+      width: 100%;
+}
+body{
+    background-color: black;
+}
+footer{
+    background-color:#EF3340;
+    display: flex;
+justify-content: center;
+box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+nav
+{ position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: #0055A4;
+    width: 100%;
+}
+.bulle{
+    display: flex;
+    flex-direction: row;
+    border-radius: 3%;
+    padding: 3%;
+    
+    background-color: #EF3340;
+}
+a, a:link, a:visited
+{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #EF3340;
 }
