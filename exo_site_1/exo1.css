@@ -37,7 +37,7 @@ nav
     flex-direction: row;
     border-radius: 3%;
     padding: 3%;
-    
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
     background-color: #EF3340;
 }
 a, a:link, a:visited

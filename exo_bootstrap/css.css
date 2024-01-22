@@ -1,0 +1,23 @@
+.card{
+    margin: 2%;
+    padding: 2%;
+}
+.list-group{
+    margin: 2%;
+    margin-top: 4%;
+   
+}
+form{
+    margin: 5%;
+}
+h2{
+    margin: 3%;
+}
+nav{
+    display: flex;
+     
+}
+.navbar
+{
+    margin-left: 75vw;
+}
