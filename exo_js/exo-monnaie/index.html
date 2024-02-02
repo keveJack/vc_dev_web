@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertisseur de devises</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="app">
+
+        <div id="app">
+            <input type="text" id="inputField" placeholder="Entrez la valeur à convertir">
+            <input type="text" id="outputField" placeholder="Résultat de la conversion">
+            <button id="convertButton">Convertir</button>
+
+            <div>
+                <input type="radio" name="currencyFrom" value="EUR" checked> Euro
+                <input type="radio" name="currencyFrom" value="USD"> Dollars
+                <input type="radio" name="currencyFrom" value="CZK"> Couronne
+            </div>
+
+            <div>
+                <input type="radio" name="currencyTo" value="EUR" checked> Euro
+                <input type="radio" name="currencyTo" value="USD"> Dollars
+                <input type="radio" name="currencyTo" value="CZK"> Couronne
+            </div>
+
+            <div>
+                <button class="numberButton" value="1">1</button>
+                <button class="numberButton" value="2">2</button>
+                <button class="numberButton" value="3">3</button>
+                <button class="numberButton" value="4">4</button>
+                <button class="numberButton" value="5">5</button>
+                <button class="numberButton" value="6">6</button>
+                <button class="numberButton" value="7">7</button>
+                <button class="numberButton" value="8">8</button>
+                <button class="numberButton" value="9">9</button>
+                <button class="numberButton" value="0">0</button>
+                <button class="numberButton" value=",">,</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
