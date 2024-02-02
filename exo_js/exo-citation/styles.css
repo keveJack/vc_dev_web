@@ -4,19 +4,21 @@ body {
     margin: 0px;
     padding: 0px;
 }
-h1{
+
+h1 {
     font-size: 200%;
 }
+
 header {
     background-color: #343a40;
     color: white;
     text-align: center;
-    padding: 1% 0;
+
 }
 
 nav {
     text-align: center;
-    margin: 2% 0;
+
 }
 
 button {
@@ -58,12 +60,24 @@ footer {
     width: 100%;
     bottom: 0;
 }
-header
-{
+
+header {
     width: 100vw;
 }
-html
-{
+
+html {
     padding: 0px;
     margin: 0px;
+}
+
+.zombies {
+    background-color: #ff9999;
+}
+
+.startrek {
+    background-color: #99ccff;
+}
+
+.sda {
+    background-color: #99ff99;
 }
