@@ -1,0 +1,8 @@
+version: '1.0'
+services:
+  web:
+    image: 'httpd'
+    ports:
+       - "80:80"
+    volumes:
+       - ~/Documents/vc_dev_web:/usr/local/apache2/htdocs/         
