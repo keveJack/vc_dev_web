@@ -18,15 +18,23 @@
       <h1>Weather App</h1>
       <div class="search-section">
         <input type="text" id="city-input" placeholder="Enter city name" />
-        <button id="search-button" class="btn btn-primary">Search</button>
+        <button id="search-button" class="btn btn-primary">Recherche</button>
         <button id="locate-button" class="btn btn-primary">
-          Use My Location
+          Utiliser ma location
         </button>
       </div>
       <div id="weather-info" class="weather-info"></div>
       <div id="image-container" class="image-container"></div>
-    </div>
 
-    
+      <select id="unit-selector">
+        <option value="metric">Métrique</option>
+        <option value="imperial">Impérial</option>
+      </select>
+
+      <select id="lang-selector">
+        <option value="fr">Français</option>
+        <option value="en">Anglais</option>
+      </select>
+    </div>
   </body>
 </html>
