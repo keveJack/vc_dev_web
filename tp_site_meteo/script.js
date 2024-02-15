@@ -27,7 +27,7 @@ $(document).ready(function () {
     });
   }
 
-  // Fonction pour afficher les informations météo0
+  // Fonction pour afficher les informations météo
   function displayWeather(data) {
     const translations = {
       en: {
