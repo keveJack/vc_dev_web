@@ -23,4 +23,3 @@ if ($x > $y) {
     echo "x est plus petit ou égal à y";
 }
 echo "</p>";
-?>

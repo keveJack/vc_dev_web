@@ -15,4 +15,3 @@ echo "<p>Résultat en PHP : $resultat</p>";
 
 // Génération d'un popup avec JavaScript pour afficher le résultat
 echo "<script>alert('$resultat');</script>";
-?>

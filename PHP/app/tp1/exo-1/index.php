@@ -7,4 +7,3 @@ $x += 10;
 
 // Affichage de l'âge + 10
 echo "Votre âge + 10 est : " . $x;
-?>

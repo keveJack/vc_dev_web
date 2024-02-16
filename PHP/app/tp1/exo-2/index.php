@@ -11,4 +11,3 @@ $reste = $dividende % $diviseur;
 
 // Affichage du résultat formaté
 echo "Le résultat de la division entière de 50 par 3 est de " . $divisionEntiere . " et le reste est " . $reste . ".";
-?>
