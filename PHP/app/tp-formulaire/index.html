@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaire avec PHP</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Formulaire avec PHP</h2>
+    <form action="reponse.php" method="POST">
+      <div class="form-group">
+        <label for="civilite"></label>
+        <select id="civilite" name="civilite">
+          <option value="Mr">Mr</option>
+          <option value="Mme">Mme</option>
+        </select>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required />
+      </div>
+      <div class="form-group">
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom" required />
+      </div>
+      <div class="form-group">
+        <label for="annee_naissance">Votre année de naissance :</label>
+        <input
+          type="text"
+          id="annee_naissance"
+          name="annee_naissance"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="identifiant">Donnez un identifiant :</label>
+        <input type="text" id="identifiant" name="identifiant" required />
+      </div>
+      <div class="form-group">
+        <label for="mot_de_passe">Donnez un mot de passe :</label>
+        <input type="password" id="mot_de_passe" name="mot_de_passe" required />
+      </div>
+      <div class="form-group">
+        <label for="sexe">Sexe :</label>
+        <input
+          type="radio"
+          id="masculin"
+          name="sexe"
+          value="Masculin"
+          required
+        />
+        <label for="masculin">Masculin</label>
+        <input type="radio" id="feminin" name="sexe" value="Féminin" required />
+        <label for="feminin">Féminin</label>
+      </div>
+      <div class="form-group">
+        <label for="experience_php">Je débute en PHP :</label>
+        <input type="checkbox" id="experience_php" name="experience_php" />
+      </div>
+      <button type="submit">Envoyer</button>
+    </form>
+  </body>
+</html>
