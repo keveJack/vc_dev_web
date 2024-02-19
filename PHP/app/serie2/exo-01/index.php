@@ -36,5 +36,3 @@ echo "<br>Tableau associatif : <br>";
 foreach ($toto as $key => $value) {
     echo $key . " : " . $value . "<br>";
 }
-
-?>
