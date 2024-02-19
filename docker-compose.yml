@@ -5,4 +5,4 @@ services:
     ports:
        - "80:80"
     volumes:
-       - ~/Documents/vc_dev_web:/usr/local/apache2/htdocs/         
+       - ~/vc_dev_web:/usr/local/apache2/htdocs/         

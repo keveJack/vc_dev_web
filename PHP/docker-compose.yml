@@ -5,7 +5,7 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ~/Documents/vc_dev_web/php/app:/var/www/html
+      - ~/vc_dev_web/PHP/app:/var/www/html
     links:
       - db:db
   db:
