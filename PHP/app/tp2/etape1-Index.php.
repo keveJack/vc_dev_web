@@ -1,0 +1,13 @@
+<?php
+
+// Création du tableau de stagiaires
+$stagiaires = array(
+    array("prenom" => "Martin", "nom" => "DUPONT"),
+    array("prenom" => "Marie", "nom" => "POPPINS")
+);
+
+// Affichage du tableau de stagiaires
+var_dump($stagiaires);
+
+// Affichage du prénom du deuxième stagiaire
+echo "Le prénom du deuxième stagiaire est : " . $stagiaires[1]["prenom"];
