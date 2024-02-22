@@ -1,4 +1,14 @@
 <?php
+session_start();
+
+// Vérifier si l'utilisateur est connecté
+if(!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
+    header("Location: index.php");
+    exit;
+}
+
+
+
 // Vérifier si un cookie existe pour le nombre d'actualités à afficher
 $nbActualites = isset($_COOKIE['nbActualites']) ? $_COOKIE['nbActualites'] : 10;
 
@@ -63,6 +73,7 @@ for ($i = 5; $i <= 10; $i++) {
 ?>
         </select>
         <button type="submit" name="submit">OK</button>
+        <a href="logout.php">Déconnecter</a>
     </form>
 </body>
 </html>
