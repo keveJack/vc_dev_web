@@ -1,0 +1,1 @@
+{"version":1,"defects":{"PersonnageTest::testNotNull":8},"times":{"PersonnageTest::testNotNull":0.003,"PersonnageTest::testPrivatePrenom":0,"PersonnageTest::testPrivateForceAttaque":0,"PersonnageTest::testPrivatePointDeVies":0,"PersonnageTest::testGetPrenomTest1":0,"PersonnageTest::testGetPrenomTest2":0}}
